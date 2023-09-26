@@ -35,6 +35,10 @@ public class FirstFragment extends Fragment {
         binding.buttonGalleryAdvanced.setOnClickListener(v -> {
             NavHostFragment.findNavController(this).navigate(R.id.action_FirstFragment_to_GalleryAdvancedFragment);
         });
+
+        binding.buttonInjected.setOnClickListener(v -> {
+            NavHostFragment.findNavController(this).navigate(R.id.action_FirstFragment_to_InjectedFragment);
+        });
     }
 
     @Override

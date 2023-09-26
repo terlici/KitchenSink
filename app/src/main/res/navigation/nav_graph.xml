@@ -32,6 +32,13 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_FirstFragment_to_InjectedFragment"
+            app:destination="@id/InjectedFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -53,4 +60,9 @@
         android:name="com.terlici.kitchensink.galleryadvanced.GalleryFragment"
         android:label="@string/gallery"
         tools:layout="@layout/fragment_gallery_advanced" />
+    <fragment
+        android:id="@+id/InjectedFragment"
+        android:name="com.terlici.kitchensink.inject.InjectedFragment"
+        android:label="@string/injected"
+        tools:layout="@layout/fragment_injected" />
 </navigation>
