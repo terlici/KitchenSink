@@ -49,6 +49,13 @@
                 android:text="@string/injected"
                 />
 
+            <Button
+                android:id="@+id/button_injected_advanced"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/injected_advanced"
+                />
+
         </LinearLayout>
 
         <TextView

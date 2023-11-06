@@ -11,6 +11,7 @@
     <string name="gallery_missing_permissions_title">Missing permissions</string>
     <string name="gallery_missing_permissions_message">Unable to display photos and videos.</string>
     <string name="injected">Injected</string>
+    <string name="injected_advanced">Injected Advanced</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
